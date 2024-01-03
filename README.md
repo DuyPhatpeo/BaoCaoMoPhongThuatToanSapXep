@@ -8,8 +8,8 @@ Mục tiêu của đề tài là mô phỏng và hiểu rõ cách hoạt động
 3. Các Thuật Toán Sắp Xếp:
 Đề tài tập trung mô phỏng các thuật toán sắp xếp sau:
 
-Bubble Sort
-Selection Sort
-Insertion Sort
-Merge Sort
-Quick Sort
+#Bubble Sort
+#Selection Sort
+#Insertion Sort
+#Merge Sort
+#Quick Sort
