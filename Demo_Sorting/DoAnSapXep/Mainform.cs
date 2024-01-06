@@ -222,8 +222,6 @@ namespace DoAnSapXep
             SoLuongNode = rank.Next(2, ThamSo.SoluongNodeLonNhat);
             VeNut();
             soluongNodetbx.Text = SoLuongNode.ToString();
-           
-       
         }
 
         private void HienThiPanel_Paint(object sender, PaintEventArgs e)
@@ -315,7 +313,6 @@ namespace DoAnSapXep
             chuasapxepPanel.Controls.Clear();
             lbMangChuaSapXep.Location = new Point(chuasapxepPanel.Location.X,10);
             chuasapxepPanel.Controls.Add(lbMangChuaSapXep);
-           
             string _string = "";
             foreach (var item in DanhSachThamSo)
             {
@@ -415,7 +412,7 @@ namespace DoAnSapXep
         }
         #endregion
 
-        #region Dếm thời gian thực hiện
+        #region Đếm thời gian thực hiện
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             DemThoiGian();
@@ -428,7 +425,6 @@ namespace DoAnSapXep
                 Giay = 0;
                 Phut++;
             }
-           
             if (Giay<10)
             {
                 label11.Text = Phut + ":0" + Giay;
@@ -1341,8 +1337,6 @@ namespace DoAnSapXep
                 b[pb + 1].ChuyenNgang(a.Count - 1);
                 b[pb + 1].vitriHienTai = a.Count - 1;
             }
-
-            ;
         }
         void ThucHienMergeSort(List<Node> a, int N)
         {

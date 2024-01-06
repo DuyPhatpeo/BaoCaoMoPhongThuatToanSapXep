@@ -33,7 +33,6 @@ namespace DoAnSapXep
             Thread.Sleep(ThamSo.ThoiGianDoi * 50);
             // chờ sign nếu có thì đợi đến vô tận 
             tamdunglistbox.WaitOne(Timeout.Infinite);
-           
             codeListBox.SelectedIndex = line;
             if (Mainform.isDebug==true)
             {

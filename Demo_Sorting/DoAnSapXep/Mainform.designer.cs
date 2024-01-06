@@ -167,7 +167,7 @@ namespace DoAnSapXep
             this.sapxepPanel.Location = new System.Drawing.Point(13, 178);
             this.sapxepPanel.Margin = new System.Windows.Forms.Padding(4);
             this.sapxepPanel.Name = "sapxepPanel";
-            this.sapxepPanel.Size = new System.Drawing.Size(1352, 553);
+            this.sapxepPanel.Size = new System.Drawing.Size(1352, 667);
             this.sapxepPanel.TabIndex = 18;
             this.sapxepPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.sapxepPanel_MouseClick);
             // 
@@ -252,12 +252,12 @@ namespace DoAnSapXep
             // 
             this.thuattoanpanel.BackColor = System.Drawing.Color.DimGray;
             this.thuattoanpanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.thuattoanpanel.Controls.Add(this.mergerdbtn);
+            this.thuattoanpanel.Controls.Add(this.interchangerdbtn);
+            this.thuattoanpanel.Controls.Add(this.quickrdbtn);
             this.thuattoanpanel.Controls.Add(this.selectionrdbtn);
             this.thuattoanpanel.Controls.Add(this.insertionrdbtn);
-            this.thuattoanpanel.Controls.Add(this.mergerdbtn);
-            this.thuattoanpanel.Controls.Add(this.quickrdbtn);
             this.thuattoanpanel.Controls.Add(this.bubblerdbtn);
-            this.thuattoanpanel.Controls.Add(this.interchangerdbtn);
             this.thuattoanpanel.Controls.Add(this.lbThuatToan);
             this.thuattoanpanel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thuattoanpanel.Location = new System.Drawing.Point(1373, 13);
@@ -271,7 +271,7 @@ namespace DoAnSapXep
             this.selectionrdbtn.AutoSize = true;
             this.selectionrdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.selectionrdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.selectionrdbtn.Location = new System.Drawing.Point(226, 116);
+            this.selectionrdbtn.Location = new System.Drawing.Point(49, 65);
             this.selectionrdbtn.Margin = new System.Windows.Forms.Padding(4);
             this.selectionrdbtn.Name = "selectionrdbtn";
             this.selectionrdbtn.Size = new System.Drawing.Size(132, 25);
@@ -285,7 +285,7 @@ namespace DoAnSapXep
             this.insertionrdbtn.AutoSize = true;
             this.insertionrdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertionrdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.insertionrdbtn.Location = new System.Drawing.Point(49, 116);
+            this.insertionrdbtn.Location = new System.Drawing.Point(244, 26);
             this.insertionrdbtn.Margin = new System.Windows.Forms.Padding(4);
             this.insertionrdbtn.Name = "insertionrdbtn";
             this.insertionrdbtn.Size = new System.Drawing.Size(131, 25);
@@ -299,7 +299,7 @@ namespace DoAnSapXep
             this.mergerdbtn.AutoSize = true;
             this.mergerdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mergerdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.mergerdbtn.Location = new System.Drawing.Point(226, 26);
+            this.mergerdbtn.Location = new System.Drawing.Point(244, 108);
             this.mergerdbtn.Margin = new System.Windows.Forms.Padding(4);
             this.mergerdbtn.Name = "mergerdbtn";
             this.mergerdbtn.Size = new System.Drawing.Size(111, 25);
@@ -313,7 +313,7 @@ namespace DoAnSapXep
             this.quickrdbtn.AutoSize = true;
             this.quickrdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quickrdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.quickrdbtn.Location = new System.Drawing.Point(226, 71);
+            this.quickrdbtn.Location = new System.Drawing.Point(244, 65);
             this.quickrdbtn.Margin = new System.Windows.Forms.Padding(4);
             this.quickrdbtn.Name = "quickrdbtn";
             this.quickrdbtn.Size = new System.Drawing.Size(106, 25);
@@ -327,7 +327,7 @@ namespace DoAnSapXep
             this.bubblerdbtn.AutoSize = true;
             this.bubblerdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bubblerdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.bubblerdbtn.Location = new System.Drawing.Point(49, 71);
+            this.bubblerdbtn.Location = new System.Drawing.Point(49, 108);
             this.bubblerdbtn.Margin = new System.Windows.Forms.Padding(4);
             this.bubblerdbtn.Name = "bubblerdbtn";
             this.bubblerdbtn.Size = new System.Drawing.Size(115, 25);
@@ -565,7 +565,7 @@ namespace DoAnSapXep
             this.HienThiPanel.Location = new System.Drawing.Point(1373, 399);
             this.HienThiPanel.Margin = new System.Windows.Forms.Padding(4);
             this.HienThiPanel.Name = "HienThiPanel";
-            this.HienThiPanel.Size = new System.Drawing.Size(412, 332);
+            this.HienThiPanel.Size = new System.Drawing.Size(412, 446);
             this.HienThiPanel.TabIndex = 22;
             // 
             // tabctlytuong
@@ -726,7 +726,7 @@ namespace DoAnSapXep
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(1798, 744);
+            this.ClientSize = new System.Drawing.Size(1798, 858);
             this.Controls.Add(this.huypanel);
             this.Controls.Add(this.HienThiPanel);
             this.Controls.Add(this.tabctlytuong);

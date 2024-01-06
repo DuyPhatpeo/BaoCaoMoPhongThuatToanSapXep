@@ -100,7 +100,6 @@ namespace DoAnSapXep
                 tbx1.SelectionStart = tbx1.Text.Length;// dat con tro chuot "cusor" qua ben phai neu so da co
                 tbx1.BringToFront();
                 tbx1.Focus();
-              
             }
         }
 
@@ -135,13 +134,9 @@ namespace DoAnSapXep
 
         private void tbx1_TextChanged(object sender, EventArgs e)
         {
-         
             //if (tbx1.Text != "")
             //{
             //    //  value = Int32.Parse(tbx1.Text);
-              
-            
-          
         
         }
         /// <summary>
@@ -204,7 +199,6 @@ namespace DoAnSapXep
 
         private void TbxBtn_Load(object sender, EventArgs e)
         {
-           
         }
 
         private void btn1_Click(object sender, EventArgs e)

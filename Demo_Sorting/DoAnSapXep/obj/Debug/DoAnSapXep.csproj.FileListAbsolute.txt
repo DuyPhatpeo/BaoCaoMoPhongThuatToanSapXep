@@ -10,3 +10,15 @@ D:\Code\Demo_Sorting\DoAnSapXep\bin\Debug\DoAnSapXep.exe
 D:\Code\Demo_Sorting\DoAnSapXep\bin\Debug\DoAnSapXep.pdb
 D:\Code\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.exe
 D:\Code\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.pdb
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\bin\Debug\DoAnSapXep.exe.config
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\bin\Debug\DoAnSapXep.exe
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\bin\Debug\DoAnSapXep.pdb
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.csproj.AssemblyReference.cache
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.frmInput.resources
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.Mainform.resources
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.Node.resources
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.Properties.Resources.resources
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.csproj.GenerateResource.cache
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.csproj.CoreCompileInputs.cache
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.exe
+D:\Code\BaoCaoMoPhongThuatToanSapXep\Demo_Sorting\DoAnSapXep\obj\Debug\DoAnSapXep.pdb
