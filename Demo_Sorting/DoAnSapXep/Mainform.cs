@@ -661,7 +661,6 @@ namespace DoAnSapXep
             DanhSachThamSo.Clear();
             chuasapxepPanel.Controls.Clear();
             batdaubtn.Enabled = false;
-       
         }
 
         #region  Nhập tay mảng sắp xếp
