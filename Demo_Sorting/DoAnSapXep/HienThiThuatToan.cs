@@ -28,6 +28,7 @@ namespace DoAnSapXep
             yTuongThuatToan.Text = yTuong;
         }
         #endregion
+        // codec khi dung debug
         public static void ChayCodeC(int line)
         {
             Thread.Sleep(ThamSo.ThoiGianDoi * 50);

@@ -463,9 +463,6 @@ namespace DoAnSapXep
             sapxepThread = new Thread(new ThreadStart(ThuatToanSapXep));
             sapxepThread.Start();
 
-
-            //backgroundWorker1.RunWorkerAsync(); // goi ham do work  
-
         }
         #endregion
 
@@ -606,7 +603,7 @@ namespace DoAnSapXep
             isRunning = false;
             DieuChinhControls(isRunning);
 
-            MessageBox.Show("Hoàn Tất: " + hoanTat);
+            MessageBox.Show("Hoàn Tất! " + hoanTat);
 
             timer1.Stop();
             Reset_CountTime();
@@ -1373,13 +1370,13 @@ namespace DoAnSapXep
 
         void MergeSort()
         {
-            bienArr["a:"].Location = new Point(0, 200 + DanhSachNode[0].Height / 2);
+            bienArr["a:"].Location = new Point(0, 240 + DanhSachNode[0].Height / 2);
             bienArr["a:"].Text = "a:";
             sapxepPanel.Controls.Add(bienArr["a:"]);
-            bienArr["c:"].Location = new Point(0, 250 + DanhSachNode[0].Height / 2);
+            bienArr["c:"].Location = new Point(0, 280 + DanhSachNode[0].Height / 2);
             bienArr["c:"].Text = "c:";
             sapxepPanel.Controls.Add(bienArr["c:"]);
-            bienArr["b:"].Location = new Point(0, 150 + DanhSachNode[0].Height / 2);
+            bienArr["b:"].Location = new Point(0, 180 + DanhSachNode[0].Height / 2);
             bienArr["b:"].Text = "b:";
             sapxepPanel.Controls.Add(bienArr["b:"]);
             bienArr["a:"].Visible = bienArr["b:"].Visible = bienArr["c:"].Visible = true;

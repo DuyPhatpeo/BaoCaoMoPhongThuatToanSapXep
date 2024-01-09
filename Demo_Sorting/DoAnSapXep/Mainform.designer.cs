@@ -49,12 +49,12 @@ namespace DoAnSapXep
             this.yTuongTextBox = new System.Windows.Forms.TextBox();
             this.daydangxepListbox = new System.Windows.Forms.ListBox();
             this.thuattoanpanel = new System.Windows.Forms.Panel();
+            this.mergerdbtn = new System.Windows.Forms.RadioButton();
+            this.interchangerdbtn = new System.Windows.Forms.RadioButton();
+            this.quickrdbtn = new System.Windows.Forms.RadioButton();
             this.selectionrdbtn = new System.Windows.Forms.RadioButton();
             this.insertionrdbtn = new System.Windows.Forms.RadioButton();
-            this.mergerdbtn = new System.Windows.Forms.RadioButton();
-            this.quickrdbtn = new System.Windows.Forms.RadioButton();
             this.bubblerdbtn = new System.Windows.Forms.RadioButton();
-            this.interchangerdbtn = new System.Windows.Forms.RadioButton();
             this.Loaisapxeppanel = new System.Windows.Forms.Panel();
             this.giamrdbtn = new System.Windows.Forms.RadioButton();
             this.tangrdbtn = new System.Windows.Forms.RadioButton();
@@ -266,6 +266,48 @@ namespace DoAnSapXep
             this.thuattoanpanel.Size = new System.Drawing.Size(412, 157);
             this.thuattoanpanel.TabIndex = 4;
             // 
+            // mergerdbtn
+            // 
+            this.mergerdbtn.AutoSize = true;
+            this.mergerdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mergerdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.mergerdbtn.Location = new System.Drawing.Point(244, 108);
+            this.mergerdbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.mergerdbtn.Name = "mergerdbtn";
+            this.mergerdbtn.Size = new System.Drawing.Size(111, 25);
+            this.mergerdbtn.TabIndex = 21;
+            this.mergerdbtn.Text = "Merge sort";
+            this.mergerdbtn.UseVisualStyleBackColor = true;
+            this.mergerdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
+            // 
+            // interchangerdbtn
+            // 
+            this.interchangerdbtn.AutoSize = true;
+            this.interchangerdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.interchangerdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.interchangerdbtn.Location = new System.Drawing.Point(49, 26);
+            this.interchangerdbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.interchangerdbtn.Name = "interchangerdbtn";
+            this.interchangerdbtn.Size = new System.Drawing.Size(154, 25);
+            this.interchangerdbtn.TabIndex = 12;
+            this.interchangerdbtn.Text = "Interchange sort";
+            this.interchangerdbtn.UseVisualStyleBackColor = true;
+            this.interchangerdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
+            // 
+            // quickrdbtn
+            // 
+            this.quickrdbtn.AutoSize = true;
+            this.quickrdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quickrdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.quickrdbtn.Location = new System.Drawing.Point(244, 65);
+            this.quickrdbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.quickrdbtn.Name = "quickrdbtn";
+            this.quickrdbtn.Size = new System.Drawing.Size(106, 25);
+            this.quickrdbtn.TabIndex = 19;
+            this.quickrdbtn.Text = "Quick sort";
+            this.quickrdbtn.UseVisualStyleBackColor = true;
+            this.quickrdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
+            // 
             // selectionrdbtn
             // 
             this.selectionrdbtn.AutoSize = true;
@@ -294,34 +336,6 @@ namespace DoAnSapXep
             this.insertionrdbtn.UseVisualStyleBackColor = true;
             this.insertionrdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
             // 
-            // mergerdbtn
-            // 
-            this.mergerdbtn.AutoSize = true;
-            this.mergerdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mergerdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.mergerdbtn.Location = new System.Drawing.Point(244, 108);
-            this.mergerdbtn.Margin = new System.Windows.Forms.Padding(4);
-            this.mergerdbtn.Name = "mergerdbtn";
-            this.mergerdbtn.Size = new System.Drawing.Size(111, 25);
-            this.mergerdbtn.TabIndex = 21;
-            this.mergerdbtn.Text = "Merge sort";
-            this.mergerdbtn.UseVisualStyleBackColor = true;
-            this.mergerdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
-            // 
-            // quickrdbtn
-            // 
-            this.quickrdbtn.AutoSize = true;
-            this.quickrdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quickrdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.quickrdbtn.Location = new System.Drawing.Point(244, 65);
-            this.quickrdbtn.Margin = new System.Windows.Forms.Padding(4);
-            this.quickrdbtn.Name = "quickrdbtn";
-            this.quickrdbtn.Size = new System.Drawing.Size(106, 25);
-            this.quickrdbtn.TabIndex = 19;
-            this.quickrdbtn.Text = "Quick sort";
-            this.quickrdbtn.UseVisualStyleBackColor = true;
-            this.quickrdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
-            // 
             // bubblerdbtn
             // 
             this.bubblerdbtn.AutoSize = true;
@@ -335,20 +349,6 @@ namespace DoAnSapXep
             this.bubblerdbtn.Text = "Bubble sort";
             this.bubblerdbtn.UseVisualStyleBackColor = true;
             this.bubblerdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
-            // 
-            // interchangerdbtn
-            // 
-            this.interchangerdbtn.AutoSize = true;
-            this.interchangerdbtn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.interchangerdbtn.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.interchangerdbtn.Location = new System.Drawing.Point(49, 26);
-            this.interchangerdbtn.Margin = new System.Windows.Forms.Padding(4);
-            this.interchangerdbtn.Name = "interchangerdbtn";
-            this.interchangerdbtn.Size = new System.Drawing.Size(154, 25);
-            this.interchangerdbtn.TabIndex = 12;
-            this.interchangerdbtn.Text = "Interchange sort";
-            this.interchangerdbtn.UseVisualStyleBackColor = true;
-            this.interchangerdbtn.CheckedChanged += new System.EventHandler(this.radiobtn_CheckedChanged);
             // 
             // Loaisapxeppanel
             // 
